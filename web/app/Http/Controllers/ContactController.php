@@ -12,17 +12,18 @@ class ContactController extends Controller
 {
     private $ro;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->ro = new ResultObjectDTO();
     }
 
     public function save(Request $request)
     {
         $contact = new ContactDTO();
-        $contact->name = strip_tags($request->input('name'));
-        $contact->company = strip_tags($request->input('company'));
-        $contact->title = strip_tags($request->input('title'));
-        $contact->businessEmail = strip_tags($request->input('businessEmail'));
+        $contact->name = strip_tags($request->input('name') ?? null);
+        $contact->company = strip_tags($request->input('company') ?? null);
+        $contact->title = strip_tags($request->input('title') ?? null);
+        $contact->businessEmail = strip_tags($request->input('businessEmail') ?? null);
         $industry = "";
         $accept = ['AI人工智慧', '大數據', 'IoT物聯網', '金融科技', '雲端運算', '區塊鏈'];
         foreach ($request->input('industry') as $value) {
@@ -31,7 +32,7 @@ class ContactController extends Controller
             }
         }
         $contact->industry = $industry;
-        $contact->content = strip_tags($request->input('content'));
+        $contact->content = strip_tags($request->input('content') ?? null);
         
         $cs = new ContactService();
         $this->ro = $cs->doSave($contact);
