@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>DESpace台南金融科技智慧園區</title>
+	<title>DESpace臺南金融科技智慧產業園區</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -11,7 +11,7 @@
 	<meta property="og:title" content="DESpace" />
 	<meta property="og:type" content="article">
 	<meta property="og:image" content="img/head-icon.png" />
-	<meta property="og:description" content="DESpace台南金融科技智慧園區">
+	<meta property="og:description" content="DESpace臺南金融科技智慧產業園區">
 
 </head>
 
@@ -48,7 +48,7 @@
 		<div class="video-overlay"></div>
 		<div class="page-width">
 			<div class="video-hero--content">
-				<h2>台南金融科技智慧園區</h2>
+				<h2>臺南金融科技智慧產業園區</h2>
 				<div>
 					<a href="#intro-title">了解更多</a>
 				</div>
@@ -84,7 +84,7 @@
 			<div class="small-text">
 				<p>
 					二十一世紀初始，科技業的發展加速，「開辦工廠」、「廣設企業總部」，成為科技業拉開與對手距離，躍升龍頭的關鍵，但隨著時代的進步，新科技變化的速度愈來愈快，「創新創意」成了企業核心資源，而設立「研發中心」、培育「研發人才」成為了為延續綿綿不絕「企業發展」的核心命脈！
-					台南金融科技智慧園區 ，一座專為企業設立「研發中心」的科學園區！</p>
+					臺南金融科技智慧產業園區，一座專為企業設立「研發中心」的科學園區！</p>
 			</div>
 			<div class="pic">
 				<img src="img/park_image_1.png" alt="">
@@ -98,7 +98,7 @@
 			</div>
 			<div class="small-text">
 				<p>
-					「台南金融科技智慧園區」除了將引進指標廠商投入發展外，並期憑藉便捷之交通條件及完善之土地規劃，成為一個擁有優美的環境、先進設備的大型科技園區，建構高品質及高效能之生產環境與產業服務，並循著「波士頓」、「巴爾的摩」以及「矽谷」等大型科技園區發展之軌跡，打造一個融合天時，地利人和的下一個新矽谷！
+					「臺南金融科技智慧產業園區」除了將引進指標廠商投入發展外，並期憑藉便捷之交通條件及完善之土地規劃，成為一個擁有優美的環境、先進設備的大型科技園區，建構高品質及高效能之生產環境與產業服務，並循著「波士頓」、「巴爾的摩」以及「矽谷」等大型科技園區發展之軌跡，打造一個融合天時，地利人和的下一個新矽谷！
 				</p>
 			</div>
 			<div class="pic">
@@ -113,7 +113,7 @@
 			</div>
 			<div class="small-text">
 				<p>
-					台南金融科技智慧園區位於高鐵「嘉義站」與「台南站」中心位置，鄰台84線道路旁，交通地理位置方便優越，與台北構成一日生活圈，同時與「沙崙綠能科學城」、「台南科學工業園區」構成「台南科技走廊」，將從過去的「製造產業佈局」中全面翻轉成「產業研發佈局」，全面帶動各產業的升級。
+					臺南金融科技智慧產業園區位於高鐵「嘉義站」與「台南站」中心位置，鄰台84線道路旁，交通地理位置方便優越，與台北構成一日生活圈，同時與「沙崙綠能科學城」、「台南科學工業園區」構成「台南科技走廊」，將從過去的「製造產業佈局」中全面翻轉成「產業研發佈局」，全面帶動各產業的升級。
 				</p>
 			</div>
 			<div class="out-link">
@@ -416,8 +416,8 @@
 			<a href="/" class="footer-logo mb5">
 				<img src="img/logo.png" alt="">
 			</a>
-			<p class="mb5">聯絡專線：(02)2798-5237</p>
-			<p class="mb5">地址：台北市內湖區洲子街79號4樓</p>
+			<p class="mb5">聯絡專線：(06)298-9156</p>
+			<p class="mb5">地址：台南市中西區中華西路二段168號24F-1</p>
 
 		</div>
 	</div>

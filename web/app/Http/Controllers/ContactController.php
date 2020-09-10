@@ -25,10 +25,13 @@ class ContactController extends Controller
         $contact->title = strip_tags($request->input('title') ?? null);
         $contact->businessEmail = strip_tags($request->input('businessEmail') ?? null);
         $industry = "";
+        $arr = $request->input('industry') ?? [];
         $accept = ['AI人工智慧', '大數據', 'IoT物聯網', '金融科技', '雲端運算', '區塊鏈'];
-        foreach ($request->input('industry') as $value) {
-            if (in_array($value, $accept)) {
-                $industry .= $value . " ,";
+        if (!empty($arr)) {
+            foreach ($request->input('industry') as $value) {
+                if (in_array($value, $accept)) {
+                    $industry .= $value . " ,";
+                }
             }
         }
         $contact->industry = $industry;
